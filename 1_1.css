@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    font-family: "Jost", sans-serif;
+}
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+.f1{
+    background-color: lavender;
+    width: 100%;
+    display: flex;
+
+}
+.he1{
+    margin-top: .2em;
+    margin-left: 0px;
+}
+.material-symbols-outlined{
+    margin: .5em;
+}
+.f2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.f2 button{
+    border-radius: 2em;
+    background-color: lavender;
+    margin: .7em;
+    box-shadow:   2px 3px 10px lightyellow;
+    text-decoration: none;
+    size:20vh;
+    font-size: 1.4em;
+    padding: 0em 2em ;
+    text-decoration: none;
+    border-color: lavender;
+}
+.f3{
+    position: absolute;
+    top: 75%;
+    left: 85%;
+}
+.f4{
+    position: absolute;
+    bottom: 0%;
+    height: 10%;
+    width: 100%;
+    background-color: lavender;
+    display: flex;
+    justify-content: space-around;
+}
+.f4 div{
+    margin: 1.5em 0px;
+}
+.material-icons{
+    size: 1.6em;
+    margin: .8em;
+    color: rgb(28, 27, 27);
+
+}
